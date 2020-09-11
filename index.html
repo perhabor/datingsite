@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Please Your Details For Our Dating Site</h1>
+
+        <form action="/self" method="post" enctype="multipart/form-data">
+
+            <fieldset>
+
+                <legend>Your Face</legend>
+                <div class="form-row">
+                    <label for="Your Image">Your image</label>
+                    <input type="text" id="Your image" autofocus placeholder="Choose file">No File Choosen
+                </div>
+
+                <div class="form-row">
+                    <label for="Image preview"> Image preview</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your General Details</legend>
+                <div class="form-row">
+                    <label for="Name">Name</label>
+                    <input type="text" placeholder="Your full name">
+                </div>
+
+
+                <div class="form-row">
+                    Gender Male<input type="radio" value="Male">Female
+                    <input type="radio" name="" id="Female">
+                </div>
+
+                <div class="form-row">
+                    <label for="Age">Age</label>
+                    <input type="Number" id="Age">
+                </div>
+
+                <div class="form-row">
+                    <label for="Date">Date of Birth</label>
+                    <input type="date" id="Age">
+                </div>
+
+                <div class="form-row">
+                    <label for="color">Favorite color</label>
+                    <input type="color" id="black">
+                </div>
+
+                <div>
+                    <label for="country">Country
+            <select name="country" id="country">
+             <option value="No selection">No selection</option>
+            <option selected value="Nigeria">Nigeria</option>
+            <option selected value="USA">USA</option>
+            <option selected value="Mexico">Mexico</option>
+            <option selected="Ghana">Ghana</option>
+            <option selected value="France">France</option>
+            <option selected value="Germany">Germany</option>
+            </select>
+             </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Indicator</legend>
+                <div class="form-row">
+                    <label for="height">Height</label>
+                    <input type="range" id="dob" min="0" max="100">
+                </div>
+
+                <div class="form-row">
+                    <label for="salary">Salary</label>
+                    <input type="range" id="dob" min="0" max="100">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Contact information</legend>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="example@domain.com" multiple>
+                </div>
+
+                <div class="form-row">
+                    <label for="Mobile">Mobile</label>
+                    <input type="mobile" id="mobile" placeholder="Phone Number">
+                </div>
+
+                <div class="form-now">
+                    <label for="Address"></label>Address
+                    <textarea name="Address" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label for="source">Method to contact you</label>
+                    <input type="checkbox">
+                    <label for="email">Email</label>
+                    <input type="checkbox">
+                    <label for="whatsapp">whatsapp</label>
+                    <input type="checkbox">
+                    <label for="In app chat">In app chat</label>
+
+                </div>
+            </fieldset>
+            <input type="submit">
+
+
+
+        </form>
+    </section>
+
+
+
+</body>
+
+</html>
